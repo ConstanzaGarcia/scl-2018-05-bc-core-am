@@ -1,1 +1,51 @@
 /* Acá va tu código */
+body{
+    background-color: black;
+}
+
+.first-section {
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+}
+
+.block{
+
+    display: block;
+}
+
+.caja{
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    margin: 20 px;
+    display: inline-block;
+    padding: 15px 20px 10px 20px;
+}
+
+#red{
+    background-color: rgb(201, 146, 218);
+}
+
+#violet{
+    background-color:violet ;
+
+}
+
+button {
+    display: inline;
+    padding: 10px;
+    font-weight: 10px;
+    font-size: 10px;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#palevioletred{
+    background-color:palevioletred;
+}
