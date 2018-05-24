@@ -12,6 +12,9 @@ h1 {
     color: white;
 }
 
+h4 {
+    color: orange
+}
 .block{
 
     display: block;
@@ -21,13 +24,13 @@ h1 {
     height: 250px;
     width: 250px;
     border: 2px solid white;
-    margin: 20 px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: inline-block;
-    padding: 15px 20px 10px 20px;
 }
 
-#red{
-    background-color: rgb(201, 146, 218);
+#purple{
+    background-color:purple;
 }
 
 #violet{
@@ -37,9 +40,10 @@ h1 {
 
 button {
     display: inline;
-    padding: 10px;
-    font-weight: 10px;
-    font-size: 10px;
+    padding-left: 20px;
+    font-weight: 20px;
+    font-size: 20px;
+    position: relative; 
 }
 
 #pink{
