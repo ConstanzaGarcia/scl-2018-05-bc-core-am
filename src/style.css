@@ -1,12 +1,11 @@
 /* Acá va tu código */
-body{
-    background-image: url(../src/image/pexels-photo-796606.jpeg)
 
+body {
+    background-image: url(../src/image/pexels-photo-796606.jpeg)
 }
 
-.first-section {
+header {
     text-align: center;
-
 }
 
 h1 {
@@ -16,41 +15,68 @@ h1 {
 h4 {
     color: orange
 }
-.block{
 
+.block {
     display: block;
 }
 
-.caja{
-    height: 250px;
-    width: 250px;
-    border: 2px solid white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+h2{
+    text-align: left;
+}
+
+#enconde {
+    position: absolute;
+    height: 155px;
+    width: 563px;
     display: inline-block;
+    left: 53px;
+    top: 216px;
 }
 
-#purple{
-    background-color:purple;
+#cajauno {
+    position: absolute;
+    height: 155px;
+    width: 563px;
+    display: inline-block;
+    left: 746px;
+    top: 216px;
 }
 
-#violet{
-    background-color:violet ;
-
-}
-
-button {
-    display: inline;
-    padding-left: 20px;
-    font-weight: 20px;
+#botonuno {
+    position: absolute;
+    display: inline-block;
+    left: 567px;
+    top: 384px;
     font-size: 20px;
-    position: relative; 
+    width: 300px;
+    
 }
 
-#pink{
-    background-color: pink;
+#decode {
+    position: absolute;
+    height: 155px;
+    width: 563px;
+    display: inline-block;
+    left: 53px;
+    top: 451px;
 }
 
-#palevioletred{
-    background-color:palevioletred;
+#cajados {
+    position: absolute;
+    height: 155px;
+    width: 563px;
+    display: inline-block;
+    left: 752px;
+    top: 451px;
+}
+
+#botondos {
+    position: absolute;
+    display: inline-block;
+    left: 567px;
+    top: 635px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 300px;
+    
 }
