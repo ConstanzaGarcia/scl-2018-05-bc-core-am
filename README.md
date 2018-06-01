@@ -25,4 +25,9 @@ sudo apt install git
 sudo yum install git
 
 <h2>¿Y ahora qué hago? Comienza a usar tu respositorio con estos ultimos pasos!</h2>
-<h2>¿Cómo se instala? Sigue estos pasos!</h2>
+
+Ingresa a Github, Debes abrir el link y registrarte para poder seguir los siguientes pasos:
+
+-Debes hacer Fork del Repositorio
+-Luego debes clonar el repositorio
+-Por último debes ejecutar el comando npm install.
