@@ -1,0 +1,80 @@
+/* Acá va tu código */
+
+body {
+  background-image: url(../src/image/pexels-photo-796606.jpeg)
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: orange
+}
+
+.block {
+  display: block;
+}
+
+#enconde {
+  position: absolute;
+  resize: none;
+  height: 155px;
+  width: 563px;
+  display: inline-block;
+  left: 53px;
+  top: 216px;
+}
+
+#cajauno {
+  position: absolute;
+  resize: none;
+  height: 155px;
+  width: 563px;
+  display: inline-block;
+  left: 746px;
+  top: 216px;
+}
+
+#botonuno {
+  position: absolute;
+  display: inline-block;
+  left: 567px;
+  top: 384px;
+  font-size: 20px;
+  width: 300px;
+}
+
+#decode {
+  position: absolute;
+  resize: none;
+  height: 155px;
+  width: 563px;
+  display: inline-block;
+  left: 53px;
+  top: 451px;
+}
+
+#cajados {
+  position: absolute;
+  resize: none;
+  height: 155px;
+  width: 563px;
+  display: inline-block;
+  left: 752px;
+  top: 451px;
+}
+
+#botondos {
+  position: absolute;
+  display: inline-block;
+  left: 567px;
+  top: 635px;
+  padding-left: 20px;
+  font-size: 20px;
+  width: 300px;
+}
