@@ -1,22 +1,34 @@
-window.cipher = {
-  encode: () => {
-    /* Acá va tu código */
+window.cipher = {     /* Acá va tu código */
+  encode: (text,intervalo) => {
+    let result = " ";
+      for (i = 0; i < contador.length; i++) {
 
-    const contador= mensaje_uno.length;
-    /* mensajeuno*/
-    const mensaje_dos = "";
-    let letra = "";
-    let ABC= 0;
-    let i;
-    let x;
+      let intervalo = (text.charCodeAt (i) - 65) - parseInt(intervalo) % 26+65;
+      
+      if (text.charCodeAt(i) === 32{
+        intervalo = "";
+        result += "";
+      }
+      result += string.fromcharCodeA (intervalo) === 32) {
+        outputAscii = " ";
+        result += " ";
+      }
 
-    for (i = 0; i < contador; i++)
+      result+= string.fromCharCode (intervalo)
+     }
+     return result;
   {
+
+
+
+
+
       letra = mensaje_uno[i]
       result += (mensaje_uno.charCodeAt (i) - 65 + 33)%26 + 65;[i].toLocaleLowerCase ();
       mensaje_dos [i] = result
     }
 
+    return result
 /*    
       for (i = 0; i < contador; i++);
         mensaje_uno [i] = 
@@ -36,5 +48,7 @@ window.cipher = {
       }
 
 
-        }
-       } 
+    
+       */
+    } 
+  }
