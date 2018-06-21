@@ -1,13 +1,13 @@
 window.cipher = {     /* Acá va tu código */
   encode: (text, intervalo) => { /*Texto corresponde al lo que se va ingresar en el input (son dos argumentos)*/
 
-    let result = ''; /* string vacio que corresponde a lo que va ingresar en el usuario*/
+    let result = ''; /*string vacio que corresponde a lo que va ingresar en el usuario*/
 
-    /*el for va a recorrer el texto y va a tomar la longitud con el punto net*/
+    /*el for va a recorrer el texto y va a tomar la longitud con el punto length*/
     for (let i = 0; i < text.length; i++) {
 
       let ascii = text.charCodeAt(i); /* obtiene el valor ascii*/
-      /* que la variable que buscal al codigo ascii es 32 el str vacio sume un espacio*/
+      /* la variable que busca, el codigo ascii es 32, el str vacio sume un espacio*/
       if (ascii === 32) {
         result += ' ';
       }
@@ -40,11 +40,11 @@ window.cipher = {     /* Acá va tu código */
         result2 += ' ';
       }
       if ((asciidos >= 65) && (asciidos <= 90)) {
-        let decifrar = (asciidos - 90 + parseInt(intervalo)) % 26 + 90;
+        let decifrar = (asciidos - 90 - parseInt(intervalo)) % 26 + 90;
         result2 += String.fromCharCode(decifrar);
       }
-      if ((asciidos >= 97) && (asciidos <= 122)) { //con minusculas en ascii
-        let decifrar = (ascii - 122 + parseInt(intervalo)) % 26 + 122;
+      if ((asciidos >= 97) && (asciidos <= 122)) {
+        let decifrar = (ascii - 122 - parseInt(intervalo)) % 26 + 122;
         result2 += String.fromCharCode(decifrar);
       }
 
