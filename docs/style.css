@@ -1,7 +1,9 @@
 /* Acá va tu código */
 
 body {
-  background-image: url(../src/image/pexels-photo-796606.jpeg)
+  background-image: url(../src/image/pexels-photo-796606.jpeg);
+  background-color: aquamarine;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -20,11 +22,11 @@ h4 {
   display: block;
 }
 
-#enconde {
+#encode {
   position: absolute;
   resize: none;
   height: 155px;
-  width: 563px;
+  width: 500px;
   display: inline-block;
   left: 53px;
   top: 216px;
@@ -34,47 +36,47 @@ h4 {
   position: absolute;
   resize: none;
   height: 155px;
-  width: 563px;
+  width: 500px;
   display: inline-block;
-  left: 746px;
+  left: 700px;
   top: 216px;
 }
 
 #botonuno {
   position: absolute;
   display: inline-block;
-  left: 567px;
+  left: 500px;
   top: 384px;
   font-size: 20px;
-  width: 300px;
+  width: 250px;
 }
 
 #decode {
   position: absolute;
   resize: none;
   height: 155px;
-  width: 563px;
+  width: 500px;
   display: inline-block;
   left: 53px;
-  top: 451px;
+  top: 420px;
 }
 
 #cajados {
   position: absolute;
   resize: none;
   height: 155px;
-  width: 563px;
+  width: 500px;
   display: inline-block;
-  left: 752px;
-  top: 451px;
+  left: 700px;
+  top: 420px;
 }
 
 #botondos {
   position: absolute;
   display: inline-block;
-  left: 567px;
-  top: 635px;
+  left: 500px;
+  top: 590px;
   padding-left: 20px;
   font-size: 20px;
-  width: 300px;
+  width: 250px;
 }
